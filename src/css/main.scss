@@ -12,6 +12,7 @@ html
 {
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
+  transition: all 0.3s;
 }
 
 .container{
@@ -35,11 +36,22 @@ html
   }
 }
 
+.scrolled{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
 
+  ul{
+    li{
+      a{
+        color:black !important;
+      }
+    }
+  }
+}
 
 nav {
   background-color: rgba(255, 255, 255, 0);
-
+  transition: all .3s;
   ul{
     li{
       a{
@@ -47,12 +59,19 @@ nav {
       }
     }
   }
+
+  
+
+
+  .nav-button{
+    margin:0 5px;
+  }
 }
 
 
 #index-content1{
   display: flex;
-  margin-top:-70px;
+  margin-top:-80px;
   position: relative;
   background-image: url(../img/Banner-01.jpg);
   background-size: cover;
@@ -154,5 +173,21 @@ nav {
     border: 2px solid #5CD9FF;
     padding: 30px;
     margin: 0px 10px;
+  }
+}
+
+footer{
+  background-color: #043545;
+  padding: 30px 0;
+  color: white;
+  white-space: nowrap;
+
+  .social-media{
+    a {
+      margin: 0 5px;
+      img{
+        height: 30px;
+      }
+    }
   }
 }
