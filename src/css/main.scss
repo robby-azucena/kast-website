@@ -2,7 +2,10 @@ body {
     background-color: #F9FBFC !important;
     color: #333333;
     overflow-x:hidden;
+    margin: 0;
+    padding: 0;
   }
+  
   
 html
 {
@@ -10,8 +13,47 @@ html
   scroll-behavior: smooth;
 }
 
+#powered{
+  display: flex;
+  width:100vw;
+  background-color: #17191A;
+  color: white;
+
+  p{
+    margin:0;
+    font-size: 0.875rem;
+  }
+}
+
 nav {
   background-color: rgba(255, 255, 255, 0);
+}
 
 
+#index-content1{
+  position: relative;
+  background-image: url(../img/Banner-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:80vh;
+  width:100vw;
+
+  img{
+    position: absolute;
+    bottom:0;
+    min-width:100%;
+    height: auto;
+  }
+
+
+  .img-svg{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(../img/divider-01.svg);
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+  }
 }
