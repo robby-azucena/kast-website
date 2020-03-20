@@ -130,3 +130,17 @@ nav {
   padding: 70px 0;
   border: 1px solid #cccccc;
 }
+
+#index-content7{
+  padding: 70px 0;
+
+  img{
+    width:80%;
+  }
+
+  @media (min-width:992.98px){
+    img{
+      width:200px;
+    }
+  }
+}

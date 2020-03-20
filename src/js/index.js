@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import '../img/Banner-01.jpg'
-import '../img/globe-logo-110x41_v7.png'
+import '../img/globe-logo.png'
 import '../img/go-bear-logo.png'
 import '../img/golden-haven-logo.png'
 import '../img/metro-logo.svg'
