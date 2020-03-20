@@ -43,3 +43,15 @@ $(document).scroll(function(){
         $('#button2').addClass('btn-nav2')
     }
 })
+
+$(document).ready(function(){
+    
+    $('.navbar-toggler').click(function(e) {
+        $(this).toggleClass('change')
+        $('#button1').toggleClass('btn-nav1 btn-primary')
+        $('#button2').toggleClass('btn-nav2 btn-primary2')
+        //$('.plugin-Navigation').toggleClass('hide-nav');
+       // $('.plugin-Navigation-list').toggleClass('hide-nav');
+       // $('.plugin-Navigation-item').toggleClass('hide-nav');
+    })
+})
