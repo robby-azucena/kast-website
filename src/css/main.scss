@@ -112,7 +112,8 @@ nav {
 #index-content4{
   background-color: white;
   padding: 70px 0;
-  border: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   img{
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .1), 0 4px 10px 1px rgba(0, 0, 0, .2);
   }
@@ -125,14 +126,12 @@ nav {
   }
 }
 
+
 #index-content6{
   background-color: white;
   padding: 70px 0;
-  border: 1px solid #cccccc;
-}
-
-#index-content7{
-  padding: 70px 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 
   img{
     width:80%;
@@ -142,5 +141,18 @@ nav {
     img{
       width:200px;
     }
+  }
+}
+
+#index-content7{
+
+  padding: 70px 0;
+
+
+  .form-container{
+    border-radius: 30px;
+    border: 2px solid #5CD9FF;
+    padding: 30px;
+    margin: 0px 10px;
   }
 }
