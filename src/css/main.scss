@@ -49,12 +49,7 @@ html
   }
 }
 
-@media (max-width:993px){
-    nav{
-      background-color: rgb(255, 255, 255) !important;
-      box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
-    }
-}
+
 
 nav {
   
@@ -79,7 +74,7 @@ nav {
 
 #index-content1{
   display: flex;
-  margin-top:-80px;
+
   position: relative;
   background-image: url(../img/Banner-01.jpg);
   background-size: cover;
