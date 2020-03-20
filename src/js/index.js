@@ -1,4 +1,5 @@
 import '../css/main.scss';
+import '../css/btn.scss';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/esm/popper.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
