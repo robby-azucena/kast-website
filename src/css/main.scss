@@ -4,13 +4,22 @@ body {
     overflow-x:hidden;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
   }
   
   
 html
 {
-  font-family: 'opensans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1440px;
+}
+
+.flex{
+  display: flex;
 }
 
 
@@ -25,6 +34,8 @@ html
     font-size: 0.875rem;
   }
 }
+
+
 
 nav {
   background-color: rgba(255, 255, 255, 0);
@@ -50,6 +61,10 @@ nav {
   height:80vh;
   width:100vw;
 
+  .container{
+    display: flex;
+  }
+
   img{
     position: absolute;
     bottom:0;
@@ -70,7 +85,18 @@ nav {
 
 
   .content{
-    margin: auto 30px;
+    margin: auto 0px;
     color:white;
+    max-width: 700px;
   }
+}
+
+
+#index-content2{
+  background-color: white;
+  padding: 30px 0;
+}
+
+#index-content3{
+  padding: 30px 0;
 }

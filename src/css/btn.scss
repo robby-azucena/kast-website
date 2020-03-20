@@ -1,7 +1,29 @@
-.btn-primary{
+.btn{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.btn-primary, .btn-primary:focus{
     background-color: rgba(255, 255, 255, 0);
     outline: none;
     border: 2px solid white;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 30px;
+    box-shadow: none !important;
 }
+
+.btn-primary:hover{
+    background-color: rgb(255, 255, 255);
+    color: #075E78;
+    outline: none;
+    box-shadow: none !important;
+    border: 2px solid white !important;
+}
+
+.btn-primary:active{
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    color: #075E78;
+}
+
+
+
