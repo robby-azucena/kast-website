@@ -32,15 +32,19 @@ $(document).scroll(function(){
         $('#kast-logo-nav').attr("src", "img/kast-logo.svg"),
         $('#button1').addClass('btn-primary'),
         $('#button2').addClass('btn-primary2')
-        $('#button1').removeClass('btn-nav1'),
-        $('#button2').removeClass('btn-nav2')
+        $('#button1').removeClass('btn-nav1')
+        $('.bar1').css({'background-color':'black'})
+        $('.bar2').css({'background-color':'black'})
+        $('.bar3').css({'background-color':'black'})
     } else {
         $('.navbar').removeClass('scrolled'),
         $('#kast-logo-nav').attr("src", "img/kast-logo-white.svg")
         $('#button1').removeClass('btn-primary'),
         $('#button2').removeClass('btn-primary2')
-        $('#button1').addClass('btn-nav1'),
-        $('#button2').addClass('btn-nav2')
+        $('#button1').addClass('btn-nav1')
+        $('.bar1').css({'background-color':'white'})
+        $('.bar2').css({'background-color':'white'})
+        $('.bar3').css({'background-color':'white'})
     }
 })
 
@@ -48,10 +52,21 @@ $(document).ready(function(){
     
     $('.navbar-toggler').click(function(e) {
         $(this).toggleClass('change')
-        $('#button1').toggleClass('btn-nav1 btn-primary')
-        $('#button2').toggleClass('btn-nav2 btn-primary2')
+
+        if(!$('.navbar').hasClass('scrolled')) {
+            $('.navbar').addClass('scrolled')
+        } else if ($('.navbar').hasClass('scrolled') && $(document).scrollTop() < 10){
+            $('.navbar').removeClass('scrolled')
+        }
+        
+
+        //$('#button1').toggleClass('btn-nav1 btn-primary')
+        //$('#button2').toggleClass('btn-nav2 btn-primary2')
         //$('.plugin-Navigation').toggleClass('hide-nav');
        // $('.plugin-Navigation-list').toggleClass('hide-nav');
        // $('.plugin-Navigation-item').toggleClass('hide-nav');
     })
+
+
+
 })
