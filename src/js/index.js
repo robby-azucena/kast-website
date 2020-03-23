@@ -32,17 +32,17 @@ $(document).scroll(function () {
         $('#kast-logo-nav').attr("src", "img/kast-logo.svg")
         $('#button1').addClass('btn-primary')
         $('#button1').removeClass('btn-nav1')
-        $('.bar1').css({ 'background-color': '#0A85AB' })
-        $('.bar2').css({ 'background-color': '#0A85AB' })
-        $('.bar3').css({ 'background-color': '#0A85AB' })
-    } else if (!$('.navbar-toggler').hasClass('change') || $('.navbar-toggler').hasClass('change')  && $(window).width() > 993) {
+        $('.bar1').css('background-color', '#0A85AB')
+        $('.bar2').css('background-color', '#0A85AB')
+        $('.bar3').css('background-color', '#0A85AB')
+    } else if (!$('.navbar-toggler').hasClass('change') || $('.navbar-toggler').hasClass('change') && $(window).width() > 993) {
         $('.navbar').removeClass('scrolled')
         $('#kast-logo-nav').attr("src", "img/kast-logo-white.svg")
         $('#button1').removeClass('btn-primary')
         $('#button1').addClass('btn-nav1')
-        $('.bar1').css({ 'background-color': 'white' })
-        $('.bar2').css({ 'background-color': 'white' })
-        $('.bar3').css({ 'background-color': 'white' })
+        $('.bar1').css('background-color', 'white')
+        $('.bar2').css('background-color', 'white')
+        $('.bar3').css('background-color', 'white')
     }
 })
 
@@ -59,8 +59,8 @@ $(window).resize(function () {
         $('#button1').addClass('btn-primary')
         $('#button1').removeClass('btn-nav1')
         $('.bar1').css({ 'background-color': '#0A85AB' })
-            $('.bar2').css({ 'background-color': '#0A85AB' })
-            $('.bar3').css({ 'background-color': '#0A85AB' })
+        $('.bar2').css({ 'background-color': '#0A85AB' })
+        $('.bar3').css({ 'background-color': '#0A85AB' })
     } else if ($(window).width() > 993 && $('.navbar-toggler').hasClass('change') && $(document).scrollTop() > 10) {
 
     } else if ($(window).width() < 992.98 && $('.navbar-toggler').hasClass('change') && $(document).scrollTop() > 10) {
