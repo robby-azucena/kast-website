@@ -36,14 +36,27 @@ html
   }
 }
 
+
+
+
+
+
+
+
 .scrolled{
   background-color: rgb(255, 255, 255);
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
 
   ul{
     li{
-      a{
+      .nav-link{
         color:black !important;
+        border-bottom: 2px solid #0A85AB50 !important;
+        transition: all .3s;
+      }
+      .nav-link.active{
+        border-bottom-color: #0A85AB !important;
+        transition: all .3s;
       }
     }
   }
@@ -52,19 +65,24 @@ html
 
 
 nav {
-  
   background-color: rgba(255, 255, 255, 0);
   transition: all .3s;
   ul{
     li{
-      a{
+      .nav-link{
         color:white !important;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        text-align: center;
+        margin: 0 10px;
+        width:100px;
+        transition: all .3s;
+      }
+      .nav-link.active{
+        border-bottom-color: white !important;
+        transition: all .3s;
       }
     }
   }
-
-  
-
 
   .nav-button{
     margin:0 5px;
@@ -72,9 +90,31 @@ nav {
 }
 
 
+@media (max-width: 993px){
+  nav{
+    #navbarSupportedContent{
+      margin: 5px 0px;
+      .navbar-nav{
+        margin: 30px 0px;
+        li{
+          margin: 5px 0px;
+          display:flex;
+          justify-content: center;
+        }
+      }
+    }
+    
+  }
+}
+
+
+
+
+
+
+
 #index-content1{
   display: flex;
-
   position: relative;
   background-image: url(../img/Banner-01.jpg);
   background-size: cover;
@@ -105,13 +145,41 @@ nav {
     width:100%;
   }
 
-
   .content{
     margin: auto 0px;
     color:white;
     max-width: 700px;
   }
+  
+  @media (max-width:993px) {
+    .content{
+      text-align: center;
+      margin: auto;
+    }
+  }
 }
+
+
+@media (max-width:993px) {
+  h1.display-3{
+    font-size: 3rem;
+  }
+  h3{
+    font-size:1.2rem;
+  }
+  h1.display-4{
+    font-size:2.7rem;
+  }
+  h5{
+    font-size: 1.1rem;
+  }
+  
+}
+
+
+
+
+
 
 
 #index-content2{
@@ -122,7 +190,19 @@ nav {
   img{
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .1), 0 4px 10px 1px rgba(0, 0, 0, .2);
   }
+
+  @media (max-width:993px) {
+    .container{
+      text-align: center;
+      
+    }
+    
+  }
+
+  
 }
+
+
 
 #index-content3{
   padding: 70px 0;
