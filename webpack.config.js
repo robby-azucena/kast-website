@@ -21,6 +21,7 @@ const PATHS = {
 
 module.exports = {
     entry: {
+        'babel-polyfill': ['@babel/polyfill'],
         index: './src/js/index.js'
     },
     output: {

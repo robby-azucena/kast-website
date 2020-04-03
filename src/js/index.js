@@ -2,8 +2,8 @@ import 'bootstrap/scss/bootstrap.scss';
 import '../css/main.scss';
 import '../css/btn.scss';
 import '../css/font.scss';
-import 'jquery/dist/jquery.js';
-import 'popper.js/dist/popper.js';
+import 'jquery/dist/jquery.min.js';
+import 'popper.js/dist/esm/popper.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
