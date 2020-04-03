@@ -138,6 +138,12 @@ nav {
         width: auto;
         transform: rotate(13deg);
       }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        img[src*=".svg"] {
+          height: 930px;
+          width: auto;
+        }
+      }
 
       @media (max-width:1650px) {
         img{
@@ -156,6 +162,13 @@ nav {
           height: 732px;
           right: 50%;
         }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          img[src*=".svg"] {
+            height: 732px;
+            width: auto;
+          }
+        }
       }
 
       @media (max-width:993px) {
@@ -164,6 +177,13 @@ nav {
           right: 64%;
           top:71%;
         }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          img[src*=".svg"] {
+            height: 330px;
+            width: auto;
+          }
+        }
       }
 
       @media (max-width:800px) {
@@ -171,6 +191,13 @@ nav {
           height: 330px;
           right: 82%;
           top: 72%;
+        }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          img[src*=".svg"] {
+            height: 330px;
+            width: auto;
+          }
         }
       }
 
