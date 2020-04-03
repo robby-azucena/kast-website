@@ -144,8 +144,8 @@ module.exports = {
           }),
         require('autoprefixer'),
         new webpack.ProvidePlugin({
-            $: 'jQuery',
-            jQuery: 'jquery'
+            $: 'jquery',
+            jquery: 'jQuery'
         })
 
     ]
