@@ -13,6 +13,8 @@ import '../img/kast-logo-white.svg'
 import '../img/fb-logo.svg'
 import '../img/twitter-logo.svg'
 import '../img/linkedin-logo.png'
+import '../img/create-message.svg'
+import '../img/div-green.svg'
 
 
 $(document).scroll(function () {
