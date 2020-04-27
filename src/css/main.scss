@@ -64,6 +64,7 @@ html
 nav {
   background-color: rgba(255, 255, 255, 0);
   transition: all .3s;
+  width:100vw;
   ul{
     li{
       .nav-link{
@@ -188,14 +189,14 @@ nav {
 
       @media (max-width:800px) {
         img{
-          height: 330px;
-          right: 82%;
-          top: 72%;
+          height: 242px;
+          right: 90%;
+          top: 80%;
         }
 
         @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
           img[src*=".svg"] {
-            height: 330px;
+            height: 242px;
             width: auto;
           }
         }
