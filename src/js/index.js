@@ -15,6 +15,8 @@ import '../img/twitter-logo.svg'
 import '../img/linkedin-logo.png'
 import '../img/create-message.svg'
 import '../img/div-green.svg'
+import '../img/diy.svg'
+import '../img/envelope.svg'
 
 
 $(document).scroll(function () {
