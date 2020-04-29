@@ -7,7 +7,7 @@ import 'popper.js/dist/esm/popper.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-import '../img/phone.svg'
+import '../img/phone.png'
 import '../img/kast-logo.svg'
 import '../img/kast-logo-white.svg'
 import '../img/fb-logo.svg'
@@ -15,8 +15,8 @@ import '../img/twitter-logo.svg'
 import '../img/linkedin-logo.png'
 import '../img/create-message.svg'
 import '../img/div-green.svg'
-import '../img/diy.svg'
-import '../img/envelope.svg'
+import '../img/diy.png'
+import '../img/envelope.png'
 
 
 $(document).scroll(function () {

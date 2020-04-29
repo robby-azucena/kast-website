@@ -165,13 +165,6 @@ nav {
           height: 732px;
           right: 50%;
         }
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-          img[src*=".svg"] {
-            height: 732px;
-            width: auto;
-          }
-        }
       }
 
       @media (max-width:993px) {
@@ -179,13 +172,6 @@ nav {
           height: 330px;
           right: 64%;
           top:71%;
-        }
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-          img[src*=".svg"] {
-            height: 330px;
-            width: auto;
-          }
         }
       }
 
@@ -195,13 +181,6 @@ nav {
           right: 90%;
           top: 80%;
         }
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-          img[src*=".svg"] {
-            height: 242px;
-            width: auto;
-          }
-        }
       }
 
       @media (orientation:landscape) and (max-width:800px) {
@@ -209,13 +188,6 @@ nav {
           height: 242px;
           right: 73%;
           top: 72%;
-        }
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-          img[src*=".svg"] {
-            height: 242px;
-            width: auto;
-          }
         }
       }
 
@@ -225,13 +197,6 @@ nav {
           right: 82%;
           top: 68%;
         }
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-          img[src*=".svg"] {
-            height: 374px;
-            width: auto;
-          }
-        }
       }
 
       @media (orientation:portrait) and (max-width:414px) {
@@ -239,13 +204,6 @@ nav {
           height: 242px;
           right: 91%;
           top: 76%;
-        }
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-          img[src*=".svg"] {
-            height: 242px;
-            width: auto;
-          }
         }
       }
     }
@@ -362,19 +320,18 @@ nav {
   .envelope{
     position: absolute;
     top:10%;
-    left:10%
+    left:10%;
+    width:auto;
+    height:150px;
   }
+  
 
   .diy{
     position: absolute;
     top: 10%;
     right:2%;
     width:auto;
-    height:100px;
-
-    img{
-      max-width:375px;
-    }
+    height:150px;
   }
 }
 
