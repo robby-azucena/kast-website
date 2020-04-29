@@ -13,6 +13,7 @@ html
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
   transition: all 0.3s;
+  overflow-x: hidden;
 }
 
 .container{
@@ -64,10 +65,7 @@ html
 nav {
   background-color: rgba(255, 255, 255, 0);
   transition: all .3s;
-  
-  .navbar{
-    width:100vw;
-  }
+  width:100vw;
 
   ul{
     li{
@@ -205,6 +203,57 @@ nav {
           }
         }
       }
+
+      @media (orientation:landscape) and (max-width:800px) {
+        img{
+          height: 242px;
+          right: 73%;
+          top: 72%;
+        }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          img[src*=".svg"] {
+            height: 242px;
+            width: auto;
+          }
+        }
+      }
+
+      @media (orientation:portrait) and (max-width:768px) {
+        img{
+          height: 374px;
+          right: 73%;
+          top: 68%;
+        }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          img[src*=".svg"] {
+            height: 374px;
+            width: auto;
+          }
+        }
+      }
+
+      @media (orientation:portrait) and (max-width:414px) {
+        img{
+          height: 242px;
+          right: 91%;
+          top: 76%;
+        }
+
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          img[src*=".svg"] {
+            height: 242px;
+            width: auto;
+          }
+        }
+      }
+      
+
+
+
+
+
     }
   }
 
@@ -283,7 +332,7 @@ nav {
 }
 
 
-@media (orientation:landscape) and (max-width:736px){
+@media (orientation:landscape) and (max-width:812px){
   #index-content1{
     height:100vh;
 
@@ -291,8 +340,6 @@ nav {
       height:150vh;
     }
   }
-
-  
 }
 
 
