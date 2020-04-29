@@ -25,6 +25,13 @@ html
 }
 
 
+.flex-center{
+  display:flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
 #powered{
   display: flex;
   width:100vw;
@@ -337,11 +344,39 @@ nav {
 
 
 
+.paper-right{
+  z-index: -9;
+  position: absolute;
+  transform : rotate(-13deg);
+  border-radius: 50px;
+  top: 100px;
+  left:-4%;
+  height:600px;
+  width:2400px;
+}
 
 
 #index-content3{
   position: relative;
   padding: 150px 10%;
+
+  .green{
+    background-color: rgba(28, 214, 136, 0.1);
+  }
+
+
+  .img-detail{
+    display:flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+
+    img{
+      width:auto;
+      height:700px;
+      background-position: bottom;
+    }
+    
+  }
 }
 
 
