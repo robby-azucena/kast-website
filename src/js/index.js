@@ -17,6 +17,9 @@ import '../img/div-green.svg'
 import '../img/diy.png'
 import '../img/envelope.png'
 import '../img/create-message.png'
+import '../img/organize-contact.png'
+import '../img/monitor-broadcast.png'
+
 
 
 $(document).scroll(function () {

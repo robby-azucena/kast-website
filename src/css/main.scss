@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
   }
   
   
@@ -344,6 +345,22 @@ nav {
 
 
 
+
+
+
+.paper-left{
+  z-index: -9;
+  position: absolute;
+  transform : rotate(-13deg);
+  border-radius: 50px;
+  top: 319px;
+  right:0%;
+  height:600px;
+  width:2400px;
+  overflow: hidden;
+}
+
+
 .paper-right{
   z-index: -9;
   position: absolute;
@@ -353,12 +370,14 @@ nav {
   left:-4%;
   height:600px;
   width:2400px;
+  overflow: hidden;
 }
 
 
 #index-content3{
   position: relative;
   padding: 150px 10%;
+  overflow: hidden;
 
   .green{
     background-color: rgba(28, 214, 136, 0.1);
@@ -373,12 +392,30 @@ nav {
     img{
       width:auto;
       height:700px;
-      background-position: bottom;
     }
-    
   }
 }
 
+#index-content4{
+  position: relative;
+  padding: 150px 10%;
+  overflow: hidden;
+
+  .blue{
+    background-color: rgba(41, 85, 214, 0.1);
+  }
+
+  .img-detail{
+    display:flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+    img{
+      width:auto;
+      height:700px;
+    }
+  }
+}
 
 
 
