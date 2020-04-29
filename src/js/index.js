@@ -19,7 +19,8 @@ import '../img/envelope.png'
 import '../img/create-message.png'
 import '../img/organize-contact.png'
 import '../img/monitor-broadcast.png'
-
+import '../img/code.png'
+import '../img/gear.png'
 
 
 $(document).scroll(function () {
