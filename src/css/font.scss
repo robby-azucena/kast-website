@@ -12,7 +12,7 @@ h1.display-4.poppins{
 
 .light{
     font-weight: 300;
-    color:#0FC1F7;
+    color:#19ABFF;
 }
 
 h1{
@@ -43,4 +43,23 @@ h1,h2,h3,h4,h5{
     color:#19ABFF;
     font-weight: 700;
     font-size: 1.125rem;
+}
+
+@media (max-width:575.98px){
+    h1{
+        text-align: center !important;
+        font-weight: 400 !important;
+        font-size:2rem;
+    }
+
+    h2{
+        font-weight: 400 !important;
+        font-size:1.75rem;
+        text-align: center !important;
+    }
+    
+    h3{
+        font-size:1.125rem;
+        text-align: center !important;
+    }
 }
