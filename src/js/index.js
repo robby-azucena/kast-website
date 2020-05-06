@@ -55,9 +55,9 @@ $(window).resize(function () {
         $('#kast-logo-nav').attr("src", "img/kast-logo.svg")
         $('#button1').addClass('btn-primary')
         $('#button1').removeClass('btn-nav1')
-        $('.bar1').css({ 'background-color': '#0A85AB' })
-        $('.bar2').css({ 'background-color': '#0A85AB' })
-        $('.bar3').css({ 'background-color': '#0A85AB' })
+        $('.bar1').css({ 'background-color': '#19ABFF' })
+        $('.bar2').css({ 'background-color': '#19ABFF' })
+        $('.bar3').css({ 'background-color': '#19ABFF' })
     } else if ($(window).width() > 993 && $('.navbar-toggler').hasClass('change') && $(document).scrollTop() > 10) {
 
     } else if ($(window).width() < 992.98 && $('.navbar-toggler').hasClass('change') && $(document).scrollTop() > 10) {
