@@ -193,25 +193,19 @@ nav {
 
       @media (orientation:landscape) and (max-width:800px) {
         img{
-          height: 242px;
-          right: 73%;
-          top: 72%;
+          display:none;
         }
       }
 
       @media (orientation:portrait) and (max-width:768px) {
         img{
-          height: 374px;
-          right: 82%;
-          top: 68%;
+          display:none;
         }
       }
 
       @media (orientation:portrait) and (max-width:414px) {
         img{
-          height: 242px;
-          right: 91%;
-          top: 76%;
+          display:none;
         }
       }
     }
