@@ -67,6 +67,8 @@ $(window).resize(function () {
 
 
 $(document).ready(function () {
+    $('body').css({ 'display': 'none'})
+    
     $('.navbar-toggler').click(function (e) {
         $(this).toggleClass('change')
         if (!$('.navbar').hasClass('scrolled') && $('.navbar-toggler').hasClass('change')) {
