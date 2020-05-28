@@ -66,7 +66,6 @@ $(window).resize(function () {
 })
 
 
-
 $(document).ready(function () {
     $('.navbar-toggler').click(function (e) {
         $(this).toggleClass('change')
@@ -96,4 +95,13 @@ $(document).ready(function () {
             }, 500);
         }
     })
+
+
+   $.ajax({
+    url: $(this).attr('href'),
+    type: 'GET',
+    success: function(response){
+        $('body').css({ 'display': 'block'})
+    }
+   })
 })
