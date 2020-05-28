@@ -255,10 +255,8 @@ nav {
   
 }
 
-
-
 //Screen Conditions
-@media (orientation:landscape) and (min-width:667px) and (max-width:992px){
+@media (orientation:landscape) and (min-width:667px) and (max-width:767px){
   #index-content1{
     height:100vh;
 
@@ -268,12 +266,39 @@ nav {
   }
 }
 
-@media (orientation:portrait) and (min-width:375px) and (min-height:667px) and (max-height:1400px) and (max-width:1050px) {
+@media (orientation:portrait) and (min-width:375px) and (min-height:667px) and (max-height:1023px) and (max-width:767px) {
   #index-content1{
     height:80vh;
 
     .paper-1, .paper-2{
       height:125vh;
+    }
+  }
+}
+
+@media (orientation:landscape) and (min-width:1024px) and (max-width:1366px){
+  #index-content1{
+    height:72vh;
+
+    .paper-1, .paper-2{
+      height:106vh;
+      .hidden{
+        img {
+          height: 516px;
+          right: 16%;
+          top: 51%;
+        }
+      }
+    }
+  }
+}
+
+@media (orientation:portrait) and (min-width:768px) and (max-width:992px) and (max-height:1024px)  {
+  #index-content1{
+    height:58vh;
+
+    .paper-1, .paper-2{
+      height:80vh;
     }
   }
 }
@@ -335,10 +360,9 @@ nav {
   border-radius: 50px;
   top: 0;
   bottom: 0;
-  left:0;
   right:0;
   height:100%;
-  width:130%;
+  width:110%;
   overflow: hidden;
 }
 
@@ -351,20 +375,11 @@ nav {
   top: 0;
   bottom: 0;
   left:0;
-  right:0;
   height:100%;
-  width:130%;
+  width:120%;
 }
 
 
-@media (max-width:992px){
-  .paper-left{
-    right:-11%;
-  }
-  .paper-right{
-    left:-9%;
-  }
-}
 
 
 .img-detail{
@@ -395,6 +410,7 @@ nav {
 #index-content3{
   position: relative;
   padding: 50px 2%;
+  margin-bottom: 60px !important;
 
   .green{
     background-color: rgba(28, 214, 136, 0.1);
