@@ -256,7 +256,7 @@ nav {
 }
 
 //Screen Conditions
-@media (orientation:landscape) and (min-width:667px) and (max-width:767px){
+@media (orientation:landscape) and (max-width:812px) and (max-height:1023px){
   #index-content1{
     height:100vh;
 
@@ -266,7 +266,7 @@ nav {
   }
 }
 
-@media (orientation:portrait) and (min-width:375px) and (min-height:667px) and (max-height:1023px) and (max-width:767px) {
+@media (orientation:portrait) and (max-width:1023px) and (max-height:812px) {
   #index-content1{
     height:80vh;
 
@@ -276,7 +276,7 @@ nav {
   }
 }
 
-@media (orientation:landscape) and (min-width:1024px) and (max-width:1366px){
+@media (orientation:landscape) and (min-width:1023px) and (max-width:1280px){
   #index-content1{
     height:72vh;
 
@@ -293,7 +293,7 @@ nav {
   }
 }
 
-@media (orientation:portrait) and (min-width:768px) and (max-width:992px) and (max-height:1024px)  {
+@media (orientation:portrait) and (min-width:768px) and (max-width:1023px) and (max-height:1024px)  {
   #index-content1{
     height:58vh;
 
